@@ -53,9 +53,12 @@ function GridIcon() {
 
 function InfoIcon() {
   return (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0, marginTop: 1 }}>
-      <circle cx="8" cy="8" r="7.75" fill="#E5E8FF" stroke="#0015FF" strokeWidth="0.5" />
-      <text x="8" y="12" textAnchor="middle" fontSize="9" fontWeight="700" fill="#0015FF" fontFamily="Inter, system-ui, sans-serif">i</text>
+    <svg viewBox="0 0 12 12" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: 0, marginTop: 1 }}>
+      <path transform="matrix(1 0 0 1 5.152 5.211)" d="M0.821 3.283C0.821 3.283 0.821 0.410 0.821 0.410C0.821 0.302 0.777 0.197 0.701 0.120C0.624 0.043 0.519 0.000 0.410 0.000C0.410 0.000 0.000 0.000 0.000 0.000" vectorEffect="non-scaling-stroke" stroke="#0015FF" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+      <path transform="matrix(1 0 0 1 5.562 3.588)" d="M0.205 0.410C0.092 0.410 0.000 0.318 0.000 0.205C0.000 0.092 0.092 0.000 0.205 0.000" vectorEffect="non-scaling-stroke" stroke="#0015FF" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+      <path transform="matrix(1 0 0 1 5.767 3.588)" d="M0.000 0.410C0.113 0.410 0.205 0.318 0.205 0.205C0.205 0.092 0.113 0.000 0.000 0.000" vectorEffect="non-scaling-stroke" stroke="#0015FF" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+      <path transform="matrix(1 0 0 1 0.737 0.737)" d="M5.263 10.527C8.170 10.527 10.527 8.170 10.527 5.263C10.527 2.356 8.170 0.000 5.263 0.000C2.356 0.000 0.000 2.356 0.000 5.263C0.000 8.170 2.356 10.527 5.263 10.527Z" vectorEffect="non-scaling-stroke" stroke="#0015FF" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
+      <path transform="matrix(1 0 0 1 5.152 8.494)" d="M0.000 0.000C0.000 0.000 1.696 0.000 1.696 0.000" vectorEffect="non-scaling-stroke" stroke="#0015FF" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 }
