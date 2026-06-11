@@ -224,8 +224,7 @@ export default function KreditKalkulator() {
           </div>
 
           {/* Right panel */}
-          <div className="flex-1 min-w-0 flex flex-col justify-between bg-[#F5F6FF] rounded-xl p-4"
-            style={{ height: 386 }}>
+          <div className="flex-1 min-w-0 flex flex-col justify-between bg-[#F5F6FF] rounded-xl p-4">
             <div className="flex flex-col gap-1">
               <div className="text-base font-medium leading-[18px] text-[#0A0B0C]">Mesečna rata</div>
               <div className="text-[28px] font-extrabold leading-8 tracking-tight text-[#0015FF]">
